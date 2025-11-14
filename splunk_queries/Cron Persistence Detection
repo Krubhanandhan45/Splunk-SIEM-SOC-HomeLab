@@ -1,0 +1,2 @@
+index=main source="/var/log/syslog" ("CRON" OR "crontab")
+| table _time host user _raw
