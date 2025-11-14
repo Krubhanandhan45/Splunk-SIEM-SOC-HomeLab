@@ -1,0 +1,4 @@
+index=main "Failed password"
+| rex "from\s+(?<src_ip>\S+)"
+| stats count BY src_ip
+| where count > 5
