@@ -1,0 +1,2 @@
+index=main ("SYN" OR "nmap")
+| stats count BY src_ip dest_port
