@@ -1,9 +1,14 @@
 # 🛡️ Splunk SIEM & SOC Home Lab – Threat Hunting & Incident Response
 
+[![Status](https://img.shields.io/badge/Status-Completed-brightgreen)]()
+[![Splunk](https://img.shields.io/badge/SIEM-Splunk-blue)]()
+[![SOC](https://img.shields.io/badge/Blue%20Team-Threat%20Detection-orange)]()
+[![License](https://img.shields.io/badge/Project-Type%3A%20Home%20Lab-lightgrey)]()
+
 This project demonstrates a complete **Security Operations Center (SOC) home lab** using **Splunk Enterprise** deployed on an Ubuntu VM.  
 The lab simulates real-world attacks, ingests Linux logs, detects threats, correlates events, triggers alerts, and performs automated incident response.
 
-This repository contains:
+### 📦 This repository contains:
 ✔ SPL queries  
 ✔ Detection rules  
 ✔ Dashboard exports  
@@ -15,28 +20,18 @@ This repository contains:
 
 ---
 
-## 📘 **Project Overview**
+# 📘 Project Overview
 
-### 🎯 Objective  
-Build a full SOC workflow in a home environment using Splunk:
+### 🎯 Objective
+Build a fully functional SIEM & SOC setup for:
 - Log ingestion  
 - Threat detection  
-- Correlation  
-- Alerting  
-- Automated blocking  
+- Alerting & correlation  
 - Threat hunting  
-- Dashboards  
+- Automated response  
 - MITRE ATT&CK mapping  
-
-### 🧪 Attacks Simulated  
-- SSH brute-force attacks  
-- Successful login after brute-force  
-- Suspicious command downloads (`wget`, `curl`)  
-- Cron job persistence  
-- Port‐scan reconnaissance (nmap)  
-- User behavior anomalies  
 
 ---
 
-# 🧩 **Architecture Diagram**
+# 🧩 Architecture Diagram
 
