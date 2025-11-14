@@ -1,3 +1,0 @@
-index=main "suspicious_download"
-| rex field=_raw "user\s+(?<user>\S+)\s+executed\s+(?<cmd>wget\s+\S+|curl\s+\S+)"
-| stats count BY host user cmd
